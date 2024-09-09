@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Blog from "./components/Blogs";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import Hero from "./components/Hero";
@@ -21,6 +22,7 @@ function App() {
           <Technologies />
           <Experiences />
           <Projects />
+          <Blog />
           <Contact />
         </div>
       </div>

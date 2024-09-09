@@ -74,3 +74,46 @@ export const CONTACT = {
   phoneNo: "+12 4555 666 00 ",
   email: "me@example.com",
 };
+
+export const BLOGS = [
+  {
+    title: "Optional Chaining in JS",
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1676895145329/1eac70c1-647e-48bd-ba53-c58c6087371e.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    content:
+      "Learn about optional chaining in JavaScript and how it can simplify your code.",
+    url: "https://shuklathecoder.hashnode.dev/optional-chaining-in-js",
+  },
+  {
+    title: "Nullish Coalescing Operator",
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1676650404148/91618c0e-a224-469f-84cd-5cb23ce5d9e6.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    content:
+      "Explore the nullish coalescing operator in JavaScript and its use cases.",
+    url: "https://shuklathecoder.hashnode.dev/nullish-coalescing-operator",
+  },
+  {
+    title: "Type Error vs Reference Error",
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/cD-_fbY6yww/upload/2a7098ab43305ff4e22f52e07f57a10f.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    content:
+      "Understand the differences between type errors and reference errors in JavaScript.",
+    url: "https://shuklathecoder.hashnode.dev/type-error-vs-reference-error",
+  },
+  {
+    title: "Why Do We Always Get Undefined on Calling Console.log?",
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/t0Bv0OBQuTg/upload/c9f0a7e011c52d054d079a2f6a63b174.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    content:
+      "Find out why `console.log` often returns `undefined` and what it means.",
+    url: "https://shuklathecoder.hashnode.dev/why-do-we-always-get-undefined-on-calling-consolelog-whyyyyy",
+  },
+  {
+    title: "What is the Difference Between == and === in JS?",
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/0DJHJcpwN9Q/upload/83a286836ea26d4d2a0b5001ced35594.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    content:
+      "Learn about the difference between `&&` and `||` operators in JavaScript.",
+    url: "https://shuklathecoder.hashnode.dev/what-is-the-difference-between-and-in-js",
+  },
+];
