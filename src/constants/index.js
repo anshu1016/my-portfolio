@@ -1,78 +1,115 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/financeApp.jpg";
+import project2 from "../assets/projects/chatApp.jpg";
+import project3 from "../assets/projects/saathiSocialApp.jpg";
+import project4 from "../assets/projects/nothingApp.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate frontend developer with 2 years of hands-on experience, dedicated to creating engaging and intuitive web applications. My expertise lies in leveraging modern technologies like React and Tailwind CSS to build seamless user interfaces. As a keen learner and a good team player, I am always eager to expand my skill set and collaborate on innovative projects. My enthusiasm for technology drives me to continuously explore new tools and techniques, aiming to deliver exceptional user experiences and contribute effectively to team goals.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated frontend developer with 2 years of experience, specializing in creating user-friendly and efficient web applications using React,NodeJS and Tailwind CSS. I am passionate about continuous learning and actively practice data structures and algorithms on LeetCode and Coding Ninjas, tracking my progress through regular GitHub commits. I thrive in collaborative environments, enjoy problem-solving, and stay active by playing cricket and exploring new technologies.I love to make projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2022 - Present",
+    role: "Engineer",
+    company: "Nagarro",
+    description: `Worked on several React projects, applying my knowledge of various tech stacks including JavaScript, React.js, Node.js, and SQL. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines. Additionally, I am Microsoft AZ-900 certified. At Nagarro, I honed my skills in Docker, facilitating efficient containerization processes and mastering organizational workflows.`,
+    technologies: [
+      "Javascript",
+      "React.js",
+      "NodeJS",
+      "AZ-900 Certified",
+      "SQL",
+      "Docker",
+      "AWS",
+    ],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2022 - 2023",
+  //   role: "Frontend Developer",
+  //   company: "Adobe",
+  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+  //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+  // },
+  // {
+  //   year: "2021 - 2022",
+  //   role: "Full Stack Developer",
+  //   company: "Facebook",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  // },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "MERN-Finance-Dashboard-using-ML",
+    appLink: "https://mern-finance-ml-app.netlify.app/",
+    sourceLink: "https://github.com/anshu1016/MERN-Finance-Dashboard-using-ML",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Dashboard with real-time data visualization and financial insights Machine Learning-based financial predictions A fully functional Finance Dashboard built using the MERN stack, integrating Machine Learning for future financial predictions.",
+    technologies: [
+      "MaterialUI",
+      "ReactJS",
+      "Node.js",
+      "MongoDB",
+      "PWA",
+      "Regression JS",
+      "Rechart JS",
+    ],
+    status: true,
   },
   {
-    title: "Task Management App",
+    title: "Tarang-React-Chatting-App",
     image: project2,
+    appLink: "",
+    sourceLink:
+      "https://github.com/anshu1016/Tarang-React-Chatting-App/tree/main",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A real-time chatting application built using React, Socket.io, and Express. The app features real-time messaging, profile picture uploads to AWS S3, and user authentication. This project demonstrates effective use of modern web technologies to create an engaging messaging experience.",
+    technologies: [
+      "ReactJS",
+      "ExpressJS",
+      "NodeJS",
+      "MongoDB",
+      "AWS",
+      "Socket.IO",
+    ],
+    status: false,
   },
+
   {
-    title: "Portfolio Website",
+    title: "Saathi - Social Media App",
     image: project3,
+    appLink: "https://your-social-saathi.vercel.app/",
+    sourceLink: "https://github.com/anshu1016/your-social-Saathi",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Your Social Saathi is a social media application designed to bring people together. It offers a platform for users to share their thoughts, interact with others, and stay connected.",
+    technologies: ["HTML", "CSS", "ReactJS"],
+    status: true,
   },
   {
-    title: "Blogging Platform",
+    title: "NothingBuy - An Electronics E-Commerce Platform",
     image: project4,
+    appLink: "https://nothing-buy.vercel.app/",
+    sourceLink: "https://github.com/anshu1016/nothingBuy",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "NothingBuy is a simple, intuitive e-commerce application where you can browse products, add them to your cart, and proceed with checkout. Our goal is to provide a seamless shopping experience for users.",
+    technologies: ["HTML", "CSS", "React.js"],
+    status: true,
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Punjab, India ",
+  phoneNo: "6239419039 ",
+  email: "arunshukla98710@gmail.com",
 };
 
 export const BLOGS = [

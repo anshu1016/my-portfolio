@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/anshuProfile1.jpeg";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -36,7 +36,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-pink-500 bg-clip-text text-5xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              Frontend Engineer
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -47,8 +47,9 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-              href="/path/to/your/cv" // Replace with the actual path to your CV
+              href="https://drive.google.com/file/d/17rKrRuchPGZo7q_kgsqEfI-A9Ev588Hi/view?usp=drive_link" // Replace with the actual path to your CV
               download="Arun_Shukla_CV.pdf"
+              target="_blank"
               variants={buttonVariants}
               whileHover="hover"
               whileTap="tap"
@@ -59,12 +60,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 p-8">
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-10 lg:mt-0">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.3 }}
-              className=""
+              transition={{ duration: 1, delay: 1.1 }}
+              className="w-full max-w-lg h-auto object-cover rounded-lg"
               src={profilePic}
               alt="profilePic"
             />
