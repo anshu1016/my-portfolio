@@ -6,6 +6,7 @@ import {
   FaReact,
   FaNodeJs,
   FaAws,
+  FaGithub,
 } from "react-icons/fa";
 import { DiJavascript1, DiMongodb } from "react-icons/di";
 import { SiTailwindcss, SiExpress, SiCplusplus, SiC } from "react-icons/si";
@@ -146,6 +147,15 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
         >
           <SiC className="text-7xl text-blue-800" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(7)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+        >
+          <FaGithub className="text-7xl text-black-500" />
         </motion.div>
 
         {/* <motion.div
