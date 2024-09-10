@@ -47,7 +47,7 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-              href="https://drive.google.com/file/d/181eQNULRGPX2YEtX0OY5ST-uztxfOEOd/view?usp=drive_link" // Replace with the actual path to your CV
+              href="https://drive.google.com/file/d/181eQNULRGPX2YEtX0OY5ST-uztxfOEOd/view?usp=sharing" // Replace with the actual path to your CV
               download="Arun_Shukla_CV.pdf"
               target="_blank"
               variants={buttonVariants}
