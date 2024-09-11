@@ -34,7 +34,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-pink-500 bg-clip-text text-5xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-pink-500 bg-clip-text text-5xl mt:[-2] tracking-tight text-transparent"
             >
               Frontend Engineer
             </motion.span>
@@ -59,7 +59,7 @@ const Hero = () => {
             </motion.a>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 p-8">
+        <div className="w-full h-[350px] lg:w-1/2 p-8">
           <div className="flex justify-center mt-10 lg:mt-0">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
