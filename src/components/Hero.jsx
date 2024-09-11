@@ -26,7 +26,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="text-7xl lg:text-7xl font-thin tracking-tight lg:mt-10 pb-12"
+              className="text-7xl lg:text-7xl font-thin tracking-tight lg:mt-14 pb-14"
             >
               Arun Shukla
             </motion.h1>
@@ -34,7 +34,8 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-pink-500 bg-clip-text text-5xl mt:[-2] tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-pink-500 bg-clip-text text-5xl tracking-tight text-transparent leading-none" // added `leading-none` to reduce the line height
+              style={{ lineHeight: "1.3" }} // Ensures that the "g" doesn't get cut off
             >
               Frontend Engineer
             </motion.span>
@@ -59,13 +60,13 @@ const Hero = () => {
             </motion.a>
           </div>
         </div>
-        <div className="w-full  lg:w-1/2 p-8">
+        <div className="w-full lg:w-1/2 p-8">
           <div className="flex justify-center mt-10 lg:mt-0">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.1 }}
-              className="w-full max-w-lg h-auto object-cover rounded-lg"
+              className="w-full max-w-lg  object-contain rounded-lg" // Changed from object-cover to object-contain for better image fitting
               src={profilePic}
               alt="profilePic"
             />
