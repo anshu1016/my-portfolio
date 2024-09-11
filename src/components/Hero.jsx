@@ -26,7 +26,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="text-7xl lg:text-7xl font-thin tracking-tight lg:mt-14 pb-14"
+              className="text-7xl lg:text-7xl font-thin tracking-tight lg:mt-10 pb-12"
             >
               Arun Shukla
             </motion.h1>
@@ -34,7 +34,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-pink-500 bg-clip-text text-5xl mb-2 tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-pink-500 bg-clip-text text-5xl tracking-tight text-transparent"
             >
               Frontend Engineer
             </motion.span>
