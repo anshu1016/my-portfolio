@@ -60,15 +60,15 @@ const Projects = () => {
                   href={project.appLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-blue-500 hover:text-blue-700 transition-all duration-300"
+                  className="flex items-center text-green-500 hover:text-green-700 transition-all duration-300"
                 >
                   <FaLink className="mr-2" />
                   Live App
                 </a>
               ) : (
-                <span className="flex items-center text-gray-500">
+                <span className="flex items-center text-white-500">
                   <FaLink className="mr-2" />
-                  Coming Soon
+                  In Progress
                 </span>
               )}
               <a
