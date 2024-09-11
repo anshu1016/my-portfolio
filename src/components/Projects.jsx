@@ -36,8 +36,8 @@ const Projects = () => {
             <div className="flex items-center mb-2">
               <h6 className="text-2xl font-semibold">{project.title}</h6>
               {!project.status && (
-                <span className="ml-4 text-sm font-bold text-red-600 bg-red-200 px-2 py-1 rounded">
-                  Not Completed
+                <span className="ml-4 text-sm font-bold text-green-600 hover:text-green-700 bg-white-200 px-2 py-1 rounded">
+                  In Progress
                 </span>
               )}
             </div>
@@ -60,15 +60,15 @@ const Projects = () => {
                   href={project.appLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-green-500 hover:text-green-700 transition-all duration-300"
+                  className="flex items-center text-blue-500 hover:text-blue-700 transition-all duration-300"
                 >
                   <FaLink className="mr-2" />
                   Live App
                 </a>
               ) : (
-                <span className="flex items-center text-white-500">
+                <span className="flex items-center text-grey-500">
                   <FaLink className="mr-2" />
-                  In Progress
+                  Coming Soon
                 </span>
               )}
               <a
