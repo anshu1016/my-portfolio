@@ -4,7 +4,7 @@ import { SiHashnode } from "react-icons/si";
 import logo from "../assets/ArunShuklaLogo.jpg";
 const Navbar = () => {
   return (
-    <nav className="mb-15 flex items-center justify-between py-6">
+    <nav className="mb-10 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <div className="mx-2 text-4xl font-bold text-blue-500">As</div>
       </div>
