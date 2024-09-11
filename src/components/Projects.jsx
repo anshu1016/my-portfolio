@@ -36,7 +36,7 @@ const Projects = () => {
             <div className="flex items-center mb-2">
               <h6 className="text-2xl font-semibold">{project.title}</h6>
               {!project.status && (
-                <span className="ml-4 text-sm font-bold text-green-600 hover:text-green-700 bg-white-200 px-2 py-1 rounded">
+                <span className="ml-4 text-sm font-bold text-green-600 hover:text-green-700 bg-red-200 px-2 py-1 rounded">
                   In Progress
                 </span>
               )}
