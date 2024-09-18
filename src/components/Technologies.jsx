@@ -56,13 +56,15 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           whileHover="visible"
-          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
         >
           <FaHtml5 className="text-7xl text-orange-600" />
           <motion.div
             variants={hoverTextVariants}
             initial="hidden"
-            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg"
+            animate="hidden"
+            whileHover="visible"
+            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
           >
             HTML5
           </motion.div>
@@ -73,13 +75,15 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           whileHover="visible"
-          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
         >
           <FaCss3Alt className="text-7xl text-blue-600" />
           <motion.div
             variants={hoverTextVariants}
             initial="hidden"
-            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg"
+            animate="hidden"
+            whileHover="visible"
+            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
           >
             CSS3
           </motion.div>
@@ -90,13 +94,15 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           whileHover="visible"
-          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
         >
           <DiJavascript1 className="text-7xl text-yellow-600" />
           <motion.div
             variants={hoverTextVariants}
             initial="hidden"
-            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg"
+            animate="hidden"
+            whileHover="visible"
+            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
           >
             JavaScript
           </motion.div>
@@ -107,13 +113,15 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           whileHover="visible"
-          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
         >
           <FaReact className="text-7xl text-cyan-400" />
           <motion.div
             variants={hoverTextVariants}
             initial="hidden"
-            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg"
+            animate="hidden"
+            whileHover="visible"
+            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
           >
             React
           </motion.div>
@@ -124,13 +132,15 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           whileHover="visible"
-          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
         >
           <SiTailwindcss className="text-7xl text-blue-400" />
           <motion.div
             variants={hoverTextVariants}
             initial="hidden"
-            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg"
+            animate="hidden"
+            whileHover="visible"
+            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
           >
             Tailwind CSS
           </motion.div>
@@ -141,13 +151,15 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           whileHover="visible"
-          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
         >
           <SiPython className="text-7xl text-blue-400" />
           <motion.div
             variants={hoverTextVariants}
             initial="hidden"
-            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg"
+            animate="hidden"
+            whileHover="visible"
+            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
           >
             Python
           </motion.div>
@@ -158,13 +170,15 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           whileHover="visible"
-          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
         >
           <DiMongodb className="text-7xl text-green-500" />
           <motion.div
             variants={hoverTextVariants}
             initial="hidden"
-            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg"
+            animate="hidden"
+            whileHover="visible"
+            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
           >
             MongoDB
           </motion.div>
@@ -175,13 +189,15 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           whileHover="visible"
-          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+          className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
         >
           <FaNodeJs className="text-7xl text-green-500" />
           <motion.div
             variants={hoverTextVariants}
             initial="hidden"
-            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg"
+            animate="hidden"
+            whileHover="visible"
+            className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
           >
             Node.js
           </motion.div>
