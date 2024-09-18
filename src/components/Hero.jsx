@@ -16,7 +16,7 @@ const Hero = () => {
     },
     tap: { scale: 0.95 },
   };
-
+// href="https://drive.google.com/file/d/181eQNULRGPX2YEtX0OY5ST-uztxfOEOd/view?usp=sharing" // Replace with the actual path to your CV
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -48,7 +48,8 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-              href="https://drive.google.com/file/d/181eQNULRGPX2YEtX0OY5ST-uztxfOEOd/view?usp=sharing" // Replace with the actual path to your CV
+             
+              href = "https://drive.google.com/file/d/1SA9HlK-QNbevPrnqL1e5JjIW2VGBv7vy/view?usp=sharing"// Python Resume
               download="Arun_Shukla_CV.pdf"
               target="_blank"
               variants={buttonVariants}
