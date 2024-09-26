@@ -65,6 +65,25 @@ export const PROJECTS = [
     status: true,
   },
   {
+    title: "Saathi - Social Media App",
+    image: project3,
+    appLink: "https://your-social-saathi.vercel.app/",
+    sourceLink: "https://github.com/anshu1016/your-social-Saathi",
+    description:
+      "Your Social Saathi is a social media application designed to bring people together. It offers a platform for users to share their thoughts, interact with others, and stay connected.",
+    technologies: ["HTML", "CSS", "ReactJS"],
+    status: true,
+  },
+  {
+    title: "GraphQl-React-Git-Repo-Explorer-App",
+    image:"",
+    appLink:"https://graph-ql-react-git-repo-explorer-app-cmux.vercel.app/",
+    sourceLink:"https://github.com/anshu1016/GraphQl-React-Git-Repo-Explorer-App",
+    description:"GitHub Repository Explorer is a React application that allows users to search for and view repositories on GitHub. The app displays repositories based on the last 10 commits or updates by default, providing users with a quick overview of the most active projects. The interface is user-friendly, supporting dark and light themes for improved accessibility.",
+    technologies:["GraphQL","ReactJS","React-Framer Motion","Vercel"],
+    status:true,
+  },
+  {
     title: "Tarang-React-Chatting-App",
     image: project2,
     appLink: "",
@@ -83,16 +102,7 @@ export const PROJECTS = [
     status: false,
   },
 
-  {
-    title: "Saathi - Social Media App",
-    image: project3,
-    appLink: "https://your-social-saathi.vercel.app/",
-    sourceLink: "https://github.com/anshu1016/your-social-Saathi",
-    description:
-      "Your Social Saathi is a social media application designed to bring people together. It offers a platform for users to share their thoughts, interact with others, and stay connected.",
-    technologies: ["HTML", "CSS", "ReactJS"],
-    status: true,
-  },
+  
   {
     title: "Video-Library-App",
     image: project5,
