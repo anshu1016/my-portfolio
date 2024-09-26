@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {
-  FaHtml5,
+  
   FaCss3Alt,
   FaJs,
   FaReact,
@@ -54,7 +54,7 @@ const Technologies = () => {
         className="flex flex-wrap items-center justify-center gap-8"
       >
         {/** Icon with hover animation **/}
-        <motion.div
+{/*         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
@@ -71,7 +71,7 @@ const Technologies = () => {
           >
             HTML5
           </motion.div>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           variants={iconVariants(3)}
@@ -211,7 +211,7 @@ const Technologies = () => {
   transition={{ duration: 1.5 }}
   className="flex flex-wrap items-center justify-center gap-8"
 >
-  {/** HTML5 Icon with hover animation **/}
+{/*   {/** HTML5 Icon with hover animation **/}
   <motion.div
     variants={iconVariants(2.5)}
     initial="initial"
@@ -229,7 +229,7 @@ const Technologies = () => {
     >
       HTML5
     </motion.div>
-  </motion.div>
+  </motion.div> */}
 
   {/** C++ Icon with hover animation **/}
   <motion.div
