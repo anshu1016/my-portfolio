@@ -312,7 +312,7 @@ const Technologies = () => {
   </motion.div>
 
   {/** REST API Icon with hover animation **/}
-  <motion.div
+{/*   <motion.div
     variants={iconVariants(2.5)}
     initial="initial"
     animate="animate"
@@ -329,7 +329,7 @@ const Technologies = () => {
     >
       REST API
     </motion.div>
-  </motion.div>
+  </motion.div> */}
 </motion.div>
 
       </motion.div>
