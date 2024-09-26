@@ -12,6 +12,7 @@ import { DiJavascript1, DiMongodb } from "react-icons/di";
 import { SiTailwindcss, SiExpress, SiCplusplus, SiC, SiPython } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
 import { GrGraphQl } from "react-icons/gr";
+import { SiJest } from "react-icons/si";
 
 const Technologies = () => {
   const iconVariants = (duration) => ({
