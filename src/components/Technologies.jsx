@@ -11,6 +11,7 @@ import {
 import { DiJavascript1, DiMongodb } from "react-icons/di";
 import { SiTailwindcss, SiExpress, SiCplusplus, SiC, SiPython } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
+import { GrGraphQl } from "react-icons/gr";
 
 const Technologies = () => {
   const iconVariants = (duration) => ({
@@ -256,7 +257,7 @@ const Technologies = () => {
     whileHover="visible"
     className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
   >
-    <SiGraphql className="text-7xl text-pink-600" />
+    <GrGraphQl className="text-7xl text-pink-600" />
     <motion.div
       variants={hoverTextVariants}
       initial="hidden"
