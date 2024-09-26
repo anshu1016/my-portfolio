@@ -202,6 +202,133 @@ const Technologies = () => {
             Node.js
           </motion.div>
         </motion.div>
+        <motion.div
+  whileInView={{ opacity: 1, x: 0 }}
+  initial={{ opacity: 0, x: -100 }}
+  transition={{ duration: 1.5 }}
+  className="flex flex-wrap items-center justify-center gap-8"
+>
+  {/** HTML5 Icon with hover animation **/}
+  <motion.div
+    variants={iconVariants(2.5)}
+    initial="initial"
+    animate="animate"
+    whileHover="visible"
+    className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
+  >
+    <FaHtml5 className="text-7xl text-orange-600" />
+    <motion.div
+      variants={hoverTextVariants}
+      initial="hidden"
+      animate="hidden"
+      whileHover="visible"
+      className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
+    >
+      HTML5
+    </motion.div>
+  </motion.div>
+
+  {/** C++ Icon with hover animation **/}
+  <motion.div
+    variants={iconVariants(2.5)}
+    initial="initial"
+    animate="animate"
+    whileHover="visible"
+    className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
+  >
+    <SiCplusplus className="text-7xl text-blue-600" />
+    <motion.div
+      variants={hoverTextVariants}
+      initial="hidden"
+      animate="hidden"
+      whileHover="visible"
+      className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
+    >
+      C++
+    </motion.div>
+  </motion.div>
+
+  {/** GraphQL Icon with hover animation **/}
+  <motion.div
+    variants={iconVariants(2.5)}
+    initial="initial"
+    animate="animate"
+    whileHover="visible"
+    className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
+  >
+    <SiGraphql className="text-7xl text-pink-600" />
+    <motion.div
+      variants={hoverTextVariants}
+      initial="hidden"
+      animate="hidden"
+      whileHover="visible"
+      className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
+    >
+      GraphQL
+    </motion.div>
+  </motion.div>
+
+  {/** Jest Icon with hover animation **/}
+  <motion.div
+    variants={iconVariants(2.5)}
+    initial="initial"
+    animate="animate"
+    whileHover="visible"
+    className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
+  >
+    <SiJest className="text-7xl text-red-600" />
+    <motion.div
+      variants={hoverTextVariants}
+      initial="hidden"
+      animate="hidden"
+      whileHover="visible"
+      className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
+    >
+      Jest
+    </motion.div>
+  </motion.div>
+
+  {/** PostgreSQL Icon with hover animation **/}
+  <motion.div
+    variants={iconVariants(2.5)}
+    initial="initial"
+    animate="animate"
+    whileHover="visible"
+    className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
+  >
+    <SiPostgresql className="text-7xl text-blue-500" />
+    <motion.div
+      variants={hoverTextVariants}
+      initial="hidden"
+      animate="hidden"
+      whileHover="visible"
+      className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
+    >
+      PostgreSQL
+    </motion.div>
+  </motion.div>
+
+  {/** REST API Icon with hover animation **/}
+  <motion.div
+    variants={iconVariants(2.5)}
+    initial="initial"
+    animate="animate"
+    whileHover="visible"
+    className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
+  >
+    <FaServer className="text-7xl text-green-600" />
+    <motion.div
+      variants={hoverTextVariants}
+      initial="hidden"
+      animate="hidden"
+      whileHover="visible"
+      className="absolute left-1/2 bottom-[-30px] -translate-x-1/2 text-sm text-center text-white bg-black py-1 px-3 rounded-lg group-hover:block"
+    >
+      REST API
+    </motion.div>
+  </motion.div>
+</motion.div>
+
       </motion.div>
     </div>
   );
