@@ -13,6 +13,7 @@ import { SiTailwindcss, SiExpress, SiCplusplus, SiC, SiPython } from "react-icon
 import { TbSql } from "react-icons/tb";
 import { GrGraphQl } from "react-icons/gr";
 import { SiJest } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const Technologies = () => {
   const iconVariants = (duration) => ({
@@ -298,7 +299,7 @@ const Technologies = () => {
     whileHover="visible"
     className="relative rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer group"
   >
-    <SiPostgresql className="text-7xl text-blue-500" />
+    <BiLogoPostgresql className="text-7xl text-blue-500" />
     <motion.div
       variants={hoverTextVariants}
       initial="hidden"
