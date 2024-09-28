@@ -49,7 +49,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
              
-              href = "https://drive.google.com/file/d/1SA9HlK-QNbevPrnqL1e5JjIW2VGBv7vy/view?usp=sharing"// Python Resume
+              href = "https://drive.google.com/file/d/1rkrXp7iiUXPhtodKUwAdwCDdgDL3U6BF/view?usp=sharing"// Python Resume
               download="Arun_Shukla_CV.pdf"
               target="_blank"
               variants={buttonVariants}
