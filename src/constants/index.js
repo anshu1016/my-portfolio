@@ -4,8 +4,8 @@ import project3 from "../assets/projects/saathiSocialApp.jpg";
 import project4 from "../assets/projects/nothingApp.jpg";
 import project5 from "../assets/projects/videoApp2.jpg";
 import project6 from "../assets/projects/imag6.jpeg";
-export const HERO_CONTENT = ` `;
-export const ABOUT_TEXT = `I am a passionate frontend developer with 2 years of hands-on experience, dedicated to creating engaging and intuitive web applications. My expertise lies in leveraging modern technologies like React and Tailwind CSS to build seamless user interfaces. As a keen learner and a good team player, I am always eager to expand my skill set and collaborate on innovative projects.`;
+export const HERO_CONTENT = `I am a passionate frontend developer with 2 years of hands-on experience, dedicated to creating engaging and intuitive web applications. My expertise lies in leveraging modern technologies like React and Tailwind CSS to build seamless user interfaces. As a keen learner and a good team player, I am always eager to expand my skill set and collaborate on innovative projects. `;
+export const ABOUT_TEXT = `I am a dedicated frontend developer with 2 years of experience, specializing in creating user-friendly and efficient web applications using React,NodeJS and Tailwind CSS. I am passionate about continuous learning and tracking my progress through regular GitHub commits. I thrive in collaborative environments, enjoy problem-solving, and stay active by playing cricket and exploring new technologies.I love to make projects.`;
 
 export const EXPERIENCES = [
   {
