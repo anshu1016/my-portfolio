@@ -39,8 +39,8 @@ const About = () => {
               {ABOUT_TEXT}
             </p>
           </div>
-          {/* <div className="flex flex-wrap justify-center gap-6 mt-8"> */}
-            {/* <div className="flex flex-col items-center">
+          <div className="flex flex-wrap justify-center gap-6 mt-8">
+             <div className="flex flex-col items-center">
               <motion.a
                 href="https://github.com/anshu1016/DSA/commits/main/"
                 target="_blank"
@@ -54,8 +54,8 @@ const About = () => {
               <span className="text-lg font-medium text-neutral-600 mt-2">
                 GitHub
               </span>
-            </div> */}
-            {/* <div className="flex flex-col items-center">
+            </div> 
+            <div className="flex flex-col items-center">
               <motion.a
                 href="https://leetcode.com/u/arunshukla98710/"
                 target="_blank"
@@ -69,8 +69,8 @@ const About = () => {
               <span className="text-lg font-medium text-neutral-600 mt-2">
                 LeetCode
               </span>
-            </div> */}
-            {/* <div className="flex flex-col items-center">
+            </div> 
+             <div className="flex flex-col items-center">
               <motion.a
                 href="https://www.naukri.com/code360/profile/b99e6a36-f120-4e7e-ab64-41ff5eaadc2d"
                 target="_blank"
@@ -84,8 +84,8 @@ const About = () => {
               <span className="text-lg font-medium text-neutral-600 mt-2">
                 Coding Ninjas
               </span>
-            </div> */}
-          {/* </div> */}
+            </div> 
+           </div> 
         </motion.div>
       </div>
     </div>
